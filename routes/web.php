@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', 'indexController@index');//nombre del controlador, nombre del metodo
+Route::get('/catalogo','catalogoController@catalogo');
