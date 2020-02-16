@@ -32,7 +32,7 @@
               <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
 
-                      <a class="nav-link"  href="index.html">Principal<span class="sr-only">(current)</span></a>
+                      <a class="nav-link"  href="/">Principal<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
 
@@ -40,11 +40,11 @@
                     </li>
                     <li class="nav-item">
 
-                      <a class="nav-link" href="quienesSomos.html"><i class="far fa-address-card"></i>¿Quienes Somos?</a>
+                      <a class="nav-link" href="/quienesSomos"><i class="far fa-address-card"></i>¿Quienes Somos?</a>
                     </li>
                     <li class="nav-item">
 
-                      <a class="nav-link" href="contacto.html"><i class="fas fa-align-justify"></i>contacto</a>
+                      <a class="nav-link" href="/contacto"><i class="fas fa-align-justify"></i>contacto</a>
 
                     </li>
               </ul>

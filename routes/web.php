@@ -17,3 +17,5 @@
 
 Route::get('/', 'indexController@index');//nombre del controlador, nombre del metodo
 Route::get('/catalogo','catalogoController@catalogo');
+Route::get('/quienesSomos','quienesSomosController@quienesSomos');
+Route::get('/contacto','contactoController@contacto');

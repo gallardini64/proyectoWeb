@@ -7,14 +7,30 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Practica 1</title>
+
+    <style>
+    .pizarron
+    {
+      border: 5px solid brown;
+      background-color: green !important;
+      height: 100px;
+      width: 300px;
+    }
+    .panel
+    {
+      border: 10px solid black;
+      background-color: grey;
+      height: 200px;
+      width: 500px;
+    }
+
+    </style>
+
+
   </head>
   <body>
-
-
-
 
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <a class="navbar-brand" href="#">
@@ -50,20 +66,37 @@
           </div>
       </nav>
 
-&nbsp;
+      <table class="tabla">
 
-<div class="container">
-<div class="container" style="border:1px solid #cecece;">
-  &nbsp;
-  <form>
-    <div class="form-row">
-      <div class="col-lg-8">
-        <input type="text" class="form-control" placeholder="">
-      </div>
-      <div class="col-lg-4">
-          <button type="submit" class="btn btn-primary mb-2">buscar</button>
-        </div>
-    </div>
-  </form>
-  &nbsp;
-</div>
+        <tr>
+            <th>Dato 1 </th>
+            <th>Dato 2 </th>
+            <th>Dato 3 </th>
+        </tr>
+
+    <tbody>
+        <tr>
+
+            <td>Dato 4 </td>
+            <td>Dato 5 </td>
+        </tr>
+        <tr>
+
+            <td>Dato 6 </td>
+            <td>Dato 7 </td>
+        </tr>
+    </tbody>
+
+    <tfoot><tr>
+            <th>Dato 1 </th>
+            <th>Dato 2 </th>
+            <th>Dato 3 </th>
+    </tr> </tfoot>
+</table>
+
+  <!-- Para cargar una imagen estando en la carpeta : img/imagen.jpg-->
+
+  <div class="pizarron panel"> hola </div>
+
+    </body>
+    </html>
